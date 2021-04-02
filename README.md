@@ -311,7 +311,7 @@ const isProductsExist = productsCount = 0
 const areProductsPresent = productsCount > 0
 
 /* Good */
-const hasProducts = productsCount = 0
+const hasProducts = productsCount > 0
 ```
 
 ### `should`
@@ -363,6 +363,6 @@ const friends = 'Tony'
 const friend = ['Bob', 'Tony', 'Tanya']
 
 /* Good */
-const friend = 'Tony'
+const friend = 'Bob'
 const friends = ['Bob', 'Tony', 'Tanya']
 ```
