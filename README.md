@@ -307,7 +307,7 @@ Describes whether the current context possesses a certain value or state (usuall
 
 ```js
 /* Bad */
-const isProductsExist = productsCount = 0
+const isProductsExist = productsCount > 0
 const areProductsPresent = productsCount > 0
 
 /* Good */
