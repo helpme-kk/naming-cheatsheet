@@ -352,5 +352,3 @@ function fetchPosts() {
   this.setState({ posts: nextPosts })
 }
 ```
-
-
