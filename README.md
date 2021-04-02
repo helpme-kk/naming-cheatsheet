@@ -35,7 +35,7 @@ const primerNombre = 'Gustavo'
 const amigos = ['Kate', 'John']
 
 /* Good */
-const firstName = 'Gustavo'
+const firstName = 'Ilya'
 const friends = ['Kate', 'John']
 ```
 
@@ -253,7 +253,7 @@ Handles an action. Often used when naming a callback method.
 
 ```js
 function handleLinkClick() {
-  console.log('Clicked a link!')
+  console.log('Clicked the link!')
 }
 
 link.addEventListener('click', handleLinkClick)
@@ -307,7 +307,7 @@ Describes whether the current context possesses a certain value or state (usuall
 
 ```js
 /* Bad */
-const isProductsExist = productsCount > 0
+const isProductsExist = productsCount = 0
 const areProductsPresent = productsCount > 0
 
 /* Good */
@@ -365,4 +365,3 @@ const friend = ['Bob', 'Tony', 'Tanya']
 /* Good */
 const friend = 'Bob'
 const friends = ['Bob', 'Tony', 'Tanya']
-```
