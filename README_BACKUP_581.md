@@ -352,6 +352,7 @@ function fetchPosts() {
   this.setState({ posts: nextPosts })
 }
 ```
+<<<<<<< .merge_file_a02964
 
 ## Singular and Plurals
 
@@ -360,9 +361,11 @@ Like a prefix, variable names can be made singular or plural depending on whethe
 ```js
 /* Bad */
 const friends = 'Tony'
-const friend = ['Andrey', 'Tony', 'Tanya']
+const friend = ['Bob', 'Tony', 'Tanya']
 
 /* Good */
 const friend = 'Tony'
-const friends = ['Andrey', 'Tony', 'Tanya']
->>>>>>> dev2
+const friends = ['Bob', 'Tony', 'Tanya']
+```
+=======
+>>>>>>> .merge_file_a12592
