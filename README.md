@@ -253,7 +253,7 @@ Handles an action. Often used when naming a callback method.
 
 ```js
 function handleLinkClick() {
-  console.log('Clicked a link!')
+  console.log('Clicked the link!')
 }
 
 link.addEventListener('click', handleLinkClick)
@@ -307,7 +307,7 @@ Describes whether the current context possesses a certain value or state (usuall
 
 ```js
 /* Bad */
-const isProductsExist = productsCount > 0
+const isProductsExist = productsCount = 0
 const areProductsPresent = productsCount > 0
 
 /* Good */
@@ -359,10 +359,10 @@ Like a prefix, variable names can be made singular or plural depending on whethe
 
 ```js
 /* Bad */
-const friends = 'Bob'
+const friends = 'Tony'
 const friend = ['Bob', 'Tony', 'Tanya']
 
 /* Good */
-const friend = 'Bob'
+const friend = 'Tony'
 const friends = ['Bob', 'Tony', 'Tanya']
 ```
