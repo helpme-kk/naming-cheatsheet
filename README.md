@@ -363,6 +363,6 @@ const friends = 'Tony'
 const friend = ['Bob', 'Tony', 'Tanya']
 
 /* Good */
-const friend = 'Bob'
+const friend = 'Tony'
 const friends = ['Bob', 'Tony', 'Tanya']
 ```
