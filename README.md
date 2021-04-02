@@ -353,16 +353,4 @@ function fetchPosts() {
 }
 ```
 
-## Singular and Plurals
 
-Like a prefix, variable names can be made singular or plural depending on whether they hold a single value or multiple values.
-
-```js
-/* Bad */
-const friends = 'Tony'
-const friend = ['Bob', 'Tony', 'Tanya']
-
-/* Good */
-const friend = 'Tony'
-const friends = ['Bob', 'Tony', 'Tanya']
-```
